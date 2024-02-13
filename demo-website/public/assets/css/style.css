@@ -1,0 +1,617 @@
+/* heading left-side start */
+.heading h1 {
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: 130px;
+}
+
+mark {
+    padding: 5px;
+    color: var(--bs-highlight-color);
+    background-color: #026b6b26;
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 2rem;
+    color: black;
+    text-align: justify;
+    color: #4a5252;
+}
+
+button.btn.btn-success {
+    border-radius: 24px;
+    margin-right: 20px;
+    background-color: #058283;
+}
+
+button.btn.btn-outline-success {
+    border-radius: 24px;
+    width: 120px;
+}
+
+/* heading left-side end */
+
+/* video right-side start */
+#myVideo {
+    height: 600px;
+  
+}
+.banner-section #myVideo {
+    max-width: 100%;
+    max-height: 600px;
+}
+
+
+/* video right-side end */
+
+.heading-1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #21333E;
+    margin: 0rem 0rem 1.5rem 0rem;
+}
+
+/* card section start  */
+h2 b {
+    color: #058283;
+    background-color: #00A6A626;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.crd {
+    background-color: rgb(222, 226, 228);
+
+}
+
+.crd h4 {
+    font-weight: 700;
+    color: #121313;
+    padding-top: 30px;
+    margin: 0px 0px -3px 24px;
+}
+
+.crd p {
+    text-align: justify;
+    margin: 25px;
+    color: #4a5252;
+
+}
+
+.button {
+    background-color: #058283;
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 24px;
+    margin: 5px 0px 30px 32px;
+}
+
+.button:hover {
+    background-color: #f8f8f8;
+    color: #058283;
+    border: 2px solid #058283;
+}
+/* card section end  */
+
+/* full  banner background image  */
+.full-banner {
+    margin-top: 50px;
+    background: url(https://assets-global.website-files.com/63062129119620a44791a2eb/63e2e74675de8b1c29acdc2a_team-meeting-games.jpg);
+    height: 600px;
+    margin-top: 150px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* full  banner section left side start  */
+.left-section {
+    background-color: #F5FFFA;
+    margin: 0px -26px 0px -30px;
+    padding: 72px 98px;
+}
+
+.text-left h3 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h3 b {
+    padding: 2px 15px;
+    color: #058283;
+    background-color: #00A6A626;
+}
+
+.list-text span {
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.list-text p {
+    color: #4a5252;
+    margin: 15px 8px 45px 0px;
+    display: block;
+}
+
+.down-text {
+    margin: -20px 0 0 0;
+}
+/* full section left side end  */
+
+/* elementor-background start  */
+.elementor-background {
+    background: url(https://p1.pxfuel.com/preview/447/1023/809/pen-writing-hand-dark.jpg);
+    height: 500px;
+    margin: 0 -30px 0 -15px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text {
+    text-align: center;
+    height: 500px;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #111117 0%, #0D1B2A 100%);
+    opacity: 0.7;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.text h6 {
+    font-weight: 600;
+    color: #00a6a6;
+    padding: 100px 0 10px 0;
+}
+
+.text h1 {
+    font-weight: 700;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.text p {
+    text-align: center;
+    color: white;
+
+}
+
+.item span {
+    font-weight: 800;
+    font-size: 40px;
+    color: #00A6A6;
+}
+
+.item h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #BEC1CE;
+}
+/* elementor-background end  */
+
+/* Slider section start */
+
+.slide-head-text h2 {
+    font-size: 50px;
+    font-weight: 700;
+    padding: 65px 0;
+}
+.slide-head-text b{
+    margin: 2px 15px;
+    color: #058283;
+}
+
+.team_img{
+    background: no-repeat 50%;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+.row.team_slider.slick-initialized.slick-slider {
+    margin: 31px;
+}
+
+/* fjgb8hn0jgfj0hgkjmhfmkoj  */
+
+.cad-img img {
+    --s: 15px;  /* size of the frame */
+    --b: 2px;   /* border thickness */
+    --w: 200px; /* width of the image */
+    --c: #7B3B3B;
+    
+    width: var(--w);
+    aspect-ratio: 1;
+    object-fit: cover;
+    padding: calc(2*var(--s));
+    --_g: var(--c) var(--b),#14131400 0 calc(100% - var(--b)),var(--c) 0;
+    background:
+      linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
+      linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
+    outline: calc(var(--w)/2) solid #0009;
+    outline-offset: calc(var(--w)/-2 - 2*var(--s));
+    transition: .4s;
+    cursor: pointer;
+  }
+  .cad-img img:hover {
+    outline: var(--b) solid var(--c);
+    outline-offset: calc(var(--s)/-2);
+    --_i: calc(100% - 2*var(--s));
+  }
+
+
+
+  .card {
+    border-radius: 16px;
+    width: 360px;
+    height: 360px;
+    background: url(https://picsum.photos/360/360?image=0);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.85);
+  }
+  .card:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.92);
+  }
+  .card .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  .card .img span {
+    width: 25%;
+    height: 100%;
+    background: url(https://picsum.photos/360/360?image=0);
+    transition: 0.5s;
+  }
+  .card .img span:nth-child(1) {
+    background-position: 0;
+    transition-delay: 0;
+  }
+  .card .img span:nth-child(2) {
+    background-position: 33.33333%;
+    transition-delay: 0.1s;
+  }
+  .card .img span:nth-child(3) {
+    background-position: 66.66666%;
+    transition-delay: 0.2s;
+  }
+  .card .img span:nth-child(4) {
+    background-position: 100%;
+    transition-delay: 0.3s;
+  }
+  
+  .card:hover .img > span {
+    transform: translateY(-100%);
+  }
+  .card:hover .content {
+    transform: translateY(0%);
+    transition: 1s;
+    transition-delay: 0.1s;
+  }
+  
+  .content {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 20px 20px;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+  }
+
+
+
+  /* new card 1.. */
+  
+.ag-courses_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  
+    padding: 50px 0;
+  }
+  .ag-courses_item {
+    -ms-flex-preferred-size: calc(33.33333% - 30px);
+    flex-basis: calc(33.33333% - 30px);
+  
+    margin: 0 15px 30px;
+  
+    overflow: hidden;
+  
+    border-radius: 28px;
+  }
+  .ag-courses-item_link {
+    display: block;
+    padding: 30px 20px;
+    background-color: #121212;
+  
+    overflow: hidden;
+  
+    position: relative;
+  }
+  .ag-courses-item_link:hover,
+  .ag-courses-item_link:hover .ag-courses-item_date {
+    text-decoration: none;
+    color: #FFF;
+  }
+  .ag-courses-item_link:hover .ag-courses-item_bg {
+    -webkit-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+  }
+  .ag-courses-item_title {
+    min-height: 87px;
+    margin: 0 0 25px;
+  
+    overflow: hidden;
+  
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFF;
+  
+    z-index: 2;
+    position: relative;
+  }
+  .ag-courses-item_date-box {
+    font-size: 18px;
+    color: #FFF;
+  
+    z-index: 2;
+    position: relative;
+  }
+  .ag-courses-item_date {
+    font-weight: bold;
+    color: #f9b234;
+  
+    -webkit-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease
+  }
+  .ag-courses-item_bg {
+    height: 128px;
+    width: 128px;
+    background-color: #f9b234;
+  
+    z-index: 1;
+    position: absolute;
+    top: -75px;
+    right: -75px;
+  
+    border-radius: 50%;
+  
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+  .ag-courses_item:nth-child(2n) .ag-courses-item_bg {
+    background-color: #3ecd5e;
+  }
+  .ag-courses_item:nth-child(3n) .ag-courses-item_bg {
+    background-color: #e44002;
+  }
+  .ag-courses_item:nth-child(4n) .ag-courses-item_bg {
+    background-color: #952aff;
+  }
+  .ag-courses_item:nth-child(5n) .ag-courses-item_bg {
+    background-color: #cd3e94;
+  }
+  .ag-courses_item:nth-child(6n) .ag-courses-item_bg {
+    background-color: #4c49ea;
+  }
+  
+  
+  
+  @media only screen and (max-width: 979px) {
+    .ag-courses_item {
+      -ms-flex-preferred-size: calc(50% - 30px);
+      flex-basis: calc(50% - 30px);
+    }
+    .ag-courses-item_title {
+      font-size: 24px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .ag-format-container {
+      width: 96%;
+    }
+  
+  }
+  @media only screen and (max-width: 639px) {
+    .ag-courses_item {
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+    }
+    .ag-courses-item_title {
+      min-height: 72px;
+      line-height: 1;
+  
+      font-size: 24px;
+    }
+    .ag-courses-item_link {
+      padding: 22px 40px;
+    }
+    .ag-courses-item_date-box {
+      font-size: 16px;
+    }
+  }
+
+
+  /* card 2 */
+
+  article {
+    --img-scale: 1.001;
+    --title-color: black;
+    --link-icon-translate: -20px;
+    --link-icon-opacity: 0;
+    position: relative;
+    border-radius: 16px;
+    box-shadow: none;
+    background: #fff;
+    transform-origin: center;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+  }
+  
+  article a::after {
+    position: absolute;
+    inset-block: 0;
+    inset-inline: 0;
+    cursor: pointer;
+    content: "";
+  }
+  
+  /* basic article elements styling */
+  article h2 {
+    margin: 0 0 18px 0;
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.9rem;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+    transition: color 0.3s ease-out;
+  }
+  
+  figure {
+    margin: 0;
+    padding: 0;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+  }
+  
+  article img {
+    max-width: 100%;
+    transform-origin: center;
+    transform: scale(var(--img-scale));
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .article-body {
+    padding: 24px;
+  }
+  
+  article a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #28666e;
+  }
+  
+  article a:focus {
+    outline: 1px dotted #28666e;
+  }
+  
+  article a .icon {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    transform: translateX(var(--link-icon-translate));
+    opacity: var(--link-icon-opacity);
+    transition: all 0.3s;
+  }
+  
+  /* using the has() relational pseudo selector to update our custom properties */
+  article:has(:hover, :focus) {
+    --img-scale: 1.1;
+    --title-color: #28666e;
+    --link-icon-translate: 0;
+    --link-icon-opacity: 1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
+  
+  
+  /************************ 
+  Generic layout (demo looks)
+  **************************/
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  /* body {
+    margin: 0;
+    padding: 48px 0;
+    font-family: "Figtree", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    background-image: linear-gradient(45deg, #7c9885, #b5b682);
+    min-height: 100vh;
+  } */
+  
+  .articles {
+    display: grid;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+  }
+  
+  @media screen and (max-width: 960px) {
+    article {
+      container: card/inline-size;
+    }
+    .article-body p {
+      display: none;
+    }
+  }
+  
+  @container card (min-width: 380px) {
+    .article-wrapper {
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      gap: 16px;
+    }
+    .article-body {
+      padding-left: 0;
+    }
+    figure {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    figure img {
+      height: 100%;
+      aspect-ratio: 1;
+      object-fit: cover;
+    }
+  }
+  
+  .sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+  }
